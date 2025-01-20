@@ -1,0 +1,286 @@
+{
+    "git.autofetch": true,
+    "[markdown]": {
+        "editor.wordWrap": "on"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.editorActionsLocation": "hidden",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "editor.fontFamily": "'D2Coding ligature Nerd'",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "monokai-charcoal (gray)",
+    "hediet.vscode-drawio.resizeImages": null,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "vim.autoSwitchInputMethod.obtainIMCmd": "/opt/homebrew/bin/im-select",
+    "vim.autoSwitchInputMethod.switchIMCmd": "/opt/homebrew/bin/im-select {im}",
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "block-outline",
+    "vim.cursorStylePerMode.visual": "line",
+    "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
+    "vim.autoSwitchInputMethod.enable": true,
+    "yaml.maxItemsComputed": 50000,
+    "vim.cursorStylePerMode.visualblock": "line",
+    "vim.cursorStylePerMode.visualline": "line",
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.stickyScroll.enabled": false,
+    "editor.minimap.enabled": false,
+    "git.enableSmartCommit": true,
+    "[svg]": {
+        "editor.defaultFormatter": "jock.svg"
+    },
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "rsp-ui.enableStartServerOnActivation": [
+        {
+            "id": "redhat.vscode-community-server-connector",
+            "name": "Community Server Connector",
+            "startOnActivation": true
+        }
+    ],
+    "rsp-ui.enableAsyncPublish": true,
+    "git.openRepositoryInParentFolders": "never",
+    "emmet.includeLanguages": {
+        "typescript": "typescriptreact"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "editor.accessibilitySupport": "off",
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "NOTE",
+        "WARNING",
+        "BUG",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "text",
+            "foreground": "#FFFFFF",
+            "background": "#FF6600",
+            "iconColor": "#FF6600"
+        },
+        "FIXME": {
+            "icon": "tools",
+            "type": "text",
+            "foreground": "#AA0000",
+            "background": "#FFFF00",
+            "iconColor": "#FFFF00"
+        },
+        "NOTE": {
+            "icon": "report",
+            "type": "text",
+            "foreground": "#FFFF33",
+            "background": "#00AAFF",
+            "iconColor": "#00AAFF"
+        },
+        "BUG": {
+            "icon": "bug",
+            "type": "text",
+            "foreground": "#0000FF",
+            "background": "#FF55FF",
+            "iconColor": "#FF55FF"
+        },
+        "WARNING": {
+            "icon": "flame",
+            "type": "text",
+            "foreground": "#FFFFFF",
+            "background": "#FF0000",
+            "iconColor": "#FF0000"
+        }
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "foreground": "#FFFF00",
+        "type": "text"
+    },
+    "todo-tree.highlights.highlightDelay": 0,
+    "workbench.sideBar.location": "right",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "xml.completion.autoCloseTags": false,
+    "xml.completion.autoCloseRemovesContent": false,
+    "typescript.autoClosingTags": false,
+    "html.autoClosingTags": false,
+    "editor.autoClosingQuotes": "never",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingComments": "never",
+    "editor.inlineSuggest.fontFamily": "Amita,Caveat",
+    "editor.suggestFontSize": 12,
+    "github.copilot.advanced": {
+        "authProvider": "github"
+    },
+    "editor.codeLensFontFamily": "Amita",
+    "editor.experimentalInlineEdit.fontFamily": "Amita",
+    "scm.inputFontFamily": "Amita",
+    "notebook.output.fontFamily": "Amita",
+    "gitlens.currentLine.fontFamily": "Amita",
+    "gitlens.blame.fontFamily": "Amita",
+    "rest-client.fontFamily": "default",
+    "svg.preview.mode": "svg",
+    "github.copilot.chat.scopeSelection": true,
+    "github.copilot.chat.search.semanticTextResults": true,
+    "auto-rename-tag.activationOnLanguage": [
+        "*"
+    ],
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js, ${capture}.typegen.ts",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts, ${capture}.typegen.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.mts": "${capture}.typegen.ts",
+        "*.cts": "${capture}.typegen.ts"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "github.copilot.chat.codeGeneration.instructions": [
+        {
+            "file": ".vscode/.copilot-instructions.md"
+        }
+    ],
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "github.copilot.chat.generateTests.codeLens": true,
+    "github.copilot.chat.inlineChatCompletionTrigger.enabled": true,
+    "github.copilot.chat.inlineChatHint.enabled": true,
+    "github.copilot.chat.temporalContext.enabled": true,
+    "websearch.useSearchResultsDirectly": true,
+    "intellicodeApiExamples.loggingLevel": "ALL",
+    "microsoft-sovereign-cloud.environment": "ChinaCloud",
+    "microsoft-sovereign-cloud.customEnvironment": { },
+    "microsoft.useMsal": true,
+    "xml.format.maxLineWidth": 140,
+    "continue.enableDebugLogs": true,
+    "continue.enableQuickActions": true,
+    "continue.pauseCodebaseIndexOnStart": true,
+    "continue.pauseTabAutocompleteOnBattery": true,
+    "continue.remoteConfigServerUrl": "http://localhost:1234/v1",
+    "continue.userToken": "",
+    "editor.inlayHints.maximumLength": 0,
+    "editor.maxTokenizationLineLength": 2000,
+    "editor.wordWrapColumn": 120,
+    "editor.fontSize": 16,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.codeActions.triggerOnFocusChange": true,
+    "editor.multiCursorLimit": 1000,
+    "prettier.printWidth": 200,
+    "prettier.singleAttributePerLine": true,
+    "prettier.trailingComma": "all",
+    "editor.suggest.showInlineDetails": false,
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.suggest.preview": true,
+    "editor.inlineSuggest.syntaxHighlightingEnabled": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "javascript.experimental.updateImportsOnPaste": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+    "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.implementationsCodeLens.showOnInterfaceMethods": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "typescript.locale": "ko",
+    "typescript.preferences.organizeImports": {
+        "accentCollation": true,
+        "sortImportsBy": "module",
+        "importModuleSpecifier": "relative",
+        "importModuleSpecifierEnding": "minimal",
+        "importModuleSpecifierPreference": "auto",
+        "importModuleSpecifierEndingPreference": "auto",
+        "importModuleSpecifierEndingLineBreak": "never",
+        "importModuleSpecifierEndingLineBreakPreference": "auto",
+        "importModuleSpecifierEndingLineBreakBefore": "never",
+        "importModuleSpecifierEndingLineBreakBeforePreference": "auto",
+        "importModuleSpecifierEndingLineBreakAfter": "never",
+        "importModuleSpecifierEndingLineBreakAfterPreference": "auto",
+        "importModuleSpecifierEndingLineBreakBetween": "never",
+        "importModuleSpecifierEndingLineBreakBetweenPreference": "auto",
+        "importModuleSpecifierEndingLineBreakBetweenGroup": "never",
+        "importModuleSpecifierEndingLineBreakBetweenGroupPreference": "auto",
+        "importModuleSpecifierEndingLineBreakBetweenGroupCount": 1,
+        "importModuleSpecifierEndingLineBreakBetweenGroupCountPreference": "auto",
+    },
+    "typescript.preferGoToSourceDefinition": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.suggest.completeFunctionCalls": true,
+    "jest.enable": false,
+    "json.format.keepLines": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.inlayHints.fontSize": 14,
+    "sqldeveloper.telemetry.enabled": false,
+    "oracledevtools.connectionConfiguration.configFilesFolder": "/Users/yonghyeongjin/Oracle/network/admin",
+    "[oraclesql]": {
+        "editor.suggest.showSnippets": true,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    "oracledevtools.connectionConfiguration.walletFileFolder": "/Users/yonghyeongjin/Oracle/network/admin",
+    "oracledevtools.bookmarkFileFolder": "/Users/yonghyeongjin/Oracle/oracle.oracledevtools",
+    "oracledevtools.download.otherFolder": "/Users/yonghyeongjin/downloads",
+    "database-client.autoSync": true,
+    "sqldeveloper.sqlHistory.historyLimit": 500,
+}
